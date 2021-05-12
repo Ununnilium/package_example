@@ -1,7 +1,17 @@
 # Test Package
 Description
 
-## Installlation
+## Installation
+### From a Git repository
+```bash
+pip install "git+https://github.com/Ununnilium/package_example.git"
+```
+
+### From a local directory
+```bash
+pip install -e /local/path/package_example
+```
+
 
 ## Usage
 ```python
